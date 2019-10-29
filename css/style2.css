@@ -18,4 +18,12 @@ h1 {
   background-color: blue;
 }
 
+#Inside_Box2 {
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  height: 100px;
+  background-color: magenta;
+}
+
 /*# sourceMappingURL=style2.css.map */
