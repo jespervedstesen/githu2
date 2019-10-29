@@ -1,3 +1,21 @@
+body {
+  margin: 0;
+}
 
+h1 {
+  color: #990000;
+}
+
+#Main_Box {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: purple;
+}
+
+#Small_Box2 {
+  width: 50%;
+  height: 100vh;
+  background-color: blue;
+}
 
 /*# sourceMappingURL=style2.css.map */
