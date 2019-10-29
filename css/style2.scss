@@ -1,0 +1,32 @@
+$color: (
+    primary: (
+        base: red,
+        dark: darken(red, 20%),
+        light: lighten(red, 20%)
+    ),
+    secondary: (
+        base:blue,
+        dark:darken(blue,20%),
+        light:lighten(blue,20%)
+    )
+);
+
+body {
+    margin:0;
+}
+
+h1 {
+    color:map-get(map-get($color, primary), dark)
+}
+
+#Main_Box {
+    display:flex;
+    flex-wrap:wrap;
+    background-color:purple;
+}
+
+#Small_Box2 {
+    width:50%;
+    height:100vh;
+    background-color:blue;
+}
