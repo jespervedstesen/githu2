@@ -9,16 +9,16 @@ h1 {
 #Main_Box {
   display: flex;
   flex-wrap: wrap;
-  Background-color: purple;
+  background-color: purple;
 }
 
-#Small_box1 {
+#Small_Box1 {
   width: 50%;
   height: 100vh;
   background-color: red;
 }
 
-#Small_box2 {
+#Small_Box2 {
   width: 50%;
   height: 100vh;
   background-color: blue;
